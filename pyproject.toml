@@ -1,0 +1,16 @@
+[project]
+name = "openai-sdk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "dotenv>=0.9.9",
+    "grok>=6.2",
+    "groq>=1.2.0",
+    "numpy>=2.4.6",
+    "openai-agents>=0.17.3",
+    "requests>=2.34.2",
+    "scikit-learn>=1.8.0",
+]
